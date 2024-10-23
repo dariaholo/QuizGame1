@@ -1,5 +1,7 @@
 import csv
 import random
+
+
 def load_questions(file_name):
     with open(file_name, mode='r', encoding='utf-8') as file:
         csv_reader = csv.reader(file)
